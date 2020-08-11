@@ -90,7 +90,7 @@ public class ServerBootStrapConfig implements ApplicationContextAware{
                     }
                 } else {
                     for (final ChannelHandler handler : bindLogicHandlers) {
-                        pipeline.addLast(eventExecutorGroup, handler);
+                        pipeline.addLast(eventExecutorGroup,handler);
                     }
                 }
             }

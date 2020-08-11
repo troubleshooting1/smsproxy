@@ -1,6 +1,8 @@
 package com.liws.entity;
 
+import org.springframework.stereotype.Component;
 
+@Component
 public class MsgHead {
     /**
      * 消息总长度
